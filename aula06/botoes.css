@@ -1,0 +1,42 @@
+.btn {
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 4px;
+    padding: 5px 5px 5px 5px;
+    margin-right: 20px;
+    text-decoration: none;
+}
+
+.btn-p {
+    font-size: 10px;
+}
+
+.btn-g{
+    font-size: 25px;
+}
+
+.btn-gg{
+    font-size: 60px;
+}
+
+.btn-s{
+    background-color: green;
+    color: white;
+}
+
+.btn-pe{
+    background-color: red;
+    color: white;
+}
+
+.btn-a{
+    background-color: yellow;
+    color: white
+}
+
+.clique{
+
+}
+
+.btn:hover{
+    background-color: rgb(255, 0, 255);
+}
