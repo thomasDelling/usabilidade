@@ -1,0 +1,19 @@
+span inline
+div quebra linha 
+
+DISPLAY FLEX: 
+
+conteiner sao caixinhas
+
+flex direction: ordena os conteiner iow, ltr
+justify content: 
+felx end
+flex center
+spacwe between
+spacwe around
+align items é vertical
+
+
+https://github.com/mmamorim/usabilidade-2025-1
+https://www.alura.com.br/artigos/css-guia-do-flexbox?srsltid=AfmBOooKpsFJpuy8F8LTAMOkEwLH79-muZzvmyDmiSBJmS_yAbS8CRPq
+navbar
