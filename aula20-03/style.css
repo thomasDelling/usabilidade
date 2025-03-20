@@ -1,3 +1,4 @@
+
 .caixa {
     border: 1px solid black;
     padding: 4px;
@@ -8,11 +9,7 @@
 }
 
 .tam-2 {
-    height: 25px;
-}
-
-.tam-3 {
-    height: 80px;
+    height: 100px;
 }
 
 .flex {
@@ -21,3 +18,28 @@
     align-items: center;
 }
 
+.avatar {
+    margin-top: 8px;
+    font-size: 38pt;
+    margin-right: 15px;
+}
+
+.item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid black;
+    padding: 2px;
+    width: 300px;
+}
+
+.item-body {
+    display: flex;
+    align-items: center;
+    margin-right: 5px;
+}
+
+.item-botoes {
+    display: flex;
+    height: 30px;
+}
