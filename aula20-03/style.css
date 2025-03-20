@@ -1,0 +1,23 @@
+.caixa {
+    border: 1px solid black;
+    padding: 4px;
+}
+
+.tam-1 {
+    height: 50px;
+}
+
+.tam-2 {
+    height: 25px;
+}
+
+.tam-3 {
+    height: 80px;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
