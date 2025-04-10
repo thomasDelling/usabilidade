@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo dos Palitinhos</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body>
+    
+    <div class="border py-1 px-2 bg-blue-400 text-white m-2 rounded">
+        Jogo dos Palitinhos
+    </div>
+
+    <div class="border rounded p-2 mx-2 w-120">
+        <div>
+            Situação do Jogo
+        </div>
+        <hr>
+        <div class="flex items-center justify-around gap-1 my-2">
+            <div class="bg-gray-300 p-1 rounded w-40">
+                Eu
+                <hr>
+                <div class="my-1">
+                    Qtde Palitos:
+                    <span class="bg-white px-2 rounded">
+                        3
+                    </span>
+                </div>
+                <div class="mx-2">
+                    Palpite
+                    <input type="text" class="bg-white w-20 rounded">
+                    <div class="mt-3">
+                        <button id="btn1" class="px-1 rounded bg-blue-700 text-white">
+                            Dar palpite
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="bg-gray-300 p-1 rounded w-40">
+                Computador
+                <hr>
+                <div class="my-1">
+                    Qtde Palitos:
+                    <span class="bg-white px-2 rounded">
+                        3
+                    </span>
+                </div>
+            </div>
+        </div>
+        <hr>
+        Mensagem:
+        <div id="msg">
+            
+        </div>
+    </div>
+
+    <script src="script.js" type="module">
+
+    </script>
+</body>
+</html>
